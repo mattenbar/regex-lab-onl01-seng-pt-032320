@@ -8,7 +8,7 @@ end
 
 def words_five_letters_long(text)
   array = text.scan(/\w{5}/)
-  array.collect {|word| word.length == 5}
+  array.collect {|word| word.length == 4}
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
