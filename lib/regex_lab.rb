@@ -8,7 +8,7 @@ end
 
 def words_five_letters_long(text)
   array = text.scan(\w{5})
-  array.map {|word| worrd.length== 5}
+  array.map {|word| word.length== 5}
 
 end
 
